@@ -1,0 +1,172 @@
+/*GENERALES*/
+
+.seccion-descriptiva {
+    color: black;
+    background-color: rgb(244, 247, 253);
+    padding: 30px 30px 20px 30px;
+    margin-bottom: 40px ;
+}
+
+
+.button-inicio {
+    padding: 40px;
+    margin:10px
+}
+
+.button-inicio a {
+   text-decoration: none;
+   color: rgb(204, 203, 203);
+}
+
+
+
+
+/*NAV-BAR*/
+
+.nav-bar{
+    width: 100%;
+}
+
+.nav-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.navbar-nav a:hover {
+    color: blue;
+}
+
+.dropdown-menu li{
+    margin-left: 15px;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color:rgb(26, 26, 26);
+}
+
+
+
+
+
+
+/*HERO*/
+
+.logo-inicio {
+    margin: 30px 40px 10px 40px;
+}
+
+
+
+
+
+/*MISION VISION OBJETIVOS*/
+
+.mision {
+    border: 3px solid rgba(202, 202, 202, 0.329);
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.mision i {
+    font-size: 30px;
+    padding: 40px;
+    color:rgb(141, 179, 255) ;
+}
+
+.titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(74, 86, 252);
+}
+
+
+
+
+
+/* INSTRUCTOR*/
+
+.instructor-foto {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.nombre {
+    margin-bottom: 0px;
+}
+
+.instructor-p {
+    font-size: 1.5em;
+}
+
+.nota {
+    color: rgb(94, 94, 94);
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 10px ;
+    background-color: rgb(141, 179, 255);
+}
+
+.footer-contact {
+    color:white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.footer-text {
+    margin-top: 20px;
+    color: white;
+}
+
+.texto-footer {
+    font-weight: bold ;
+    color:rgb(170, 0, 0);
+    font-size: 1.3em;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer i {
+    color: white;
+    margin-right: 2px;
+    margin-left: 6px;
+}
+
+.footer a:hover {
+    color: rgb(0, 71, 151);
+}
+
+.footer i:hover {
+    color: rgb(0, 71, 151);
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 414px) {
+    .instructor-foto {
+        width:200px;
+        height: 200px;
+        }	
+    .logo-inicio {
+        width:200px;
+        height: 200px;
+    }
+      }
